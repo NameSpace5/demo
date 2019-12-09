@@ -1,0 +1,11 @@
+spring:
+    jackson:
+        date-format: yyyy-MM-dd
+        timezone: GMT+0
+        serialization:
+            write-dates-as-timestamps: false #时间戳设置true 覆盖date-format
+logging:
+    level:
+        ROOT: WARN
+    file:
+        name: target.app.log
